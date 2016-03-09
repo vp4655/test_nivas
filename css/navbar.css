@@ -1,0 +1,27 @@
+.navbar{
+    margin: 0;
+}
+.navbar.navbar-default.navbar-nivas{
+    background-color: #f6f6f6;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), inset 0 -1px 5px white;
+}
+.navbar-font{
+    color: #535353;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+@media (min-width: 767px) {
+    .navbar.navbar-default.navbar-nivas{
+        padding-top: 3.5%;
+        padding-bottom: 1%;
+    }
+    .navbar-nav.nav-justified{
+        width: 90%;
+    }
+    .navbar-nav.nav-justified > li{
+        float:none;
+    }
+}

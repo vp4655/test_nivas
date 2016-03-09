@@ -1,0 +1,37 @@
+.form-control.nivas-overwrite:focus {
+    background-color: #f2f2f2;
+    border-color: #c5c5c5;
+    color: #535353;
+    font-weight: 600;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.nivas-form{
+    line-height: 24px;
+}
+.nivas-form > *{
+    margin-bottom: 5%;
+}
+.nivas-form > input[type="text"]{
+    background-color: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 2px 1px 1px 2px;
+    color: #959595;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+.nivas-form > textarea{
+    background-color: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 2px 1px 1px 2px;
+    color: #959595;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+    resize: none;
+}
+.nivas-form-padding{
+    padding-top: 1%;
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: CoolveticaRg; src: url('../fonts/coolvetica_rg.ttf');
+}
+.call-header{
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: CoolveticaRg, Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 2%;
+}
+.call-text{
+    color: white;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 10%;
+}
+.desc-icon{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #535353;
+}
+.desc-icon, .header-text-icon{
+    font-family: Arial, Helvetica, SansSerif, sans-serif
+}
+.form-heading{
+    color: black;
+    font-family: CoolveticaRg, Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 2%;
+}
+.form-text{
+    color: #535353;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 7%;
+}
+.header-text-icon{
+    color: #535353;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 12px;
+    font-variant: small-caps;
+}
+.icon-holder{
+    background-color: #000000;
+    color: #ffffff;
+    float: left;
+    font-size: 24px;
+    margin-bottom: 7%;
+    padding: 12px;
+}
+.icon-holder > .icon-mail-icon{
+    font-size: 18px;
+}
+.mail-link{
+    color: #747474;
+    cursor: pointer;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.second-desc{
+    color: #535353;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.second-header{
+    color: #000000;
+    font-family: CoolveticaRg, Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.second-list{
+    color: #535353;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.third-desc > p{
+    color: #535353;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.third-header{
+    color: #000000;
+    font-family: CoolveticaRg, Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 5%;
+}
+.text-icon{
+    display: inline-block;
+    margin-left: 5%;
+    padding: 2px;
+}

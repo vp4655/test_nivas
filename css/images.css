@@ -1,0 +1,55 @@
+/* First container image */
+.call-image{
+    height: 240px;
+    width: 400px;
+}
+.call-image-holder{
+    margin-top: 5%;
+}
+/* Second container image */
+.second-image{
+    height: 240px;
+    width: 300px;
+    position: absolute;
+    right: 35%;
+}
+/* Third container image */
+.third-image{
+    position: absolute;
+    left: 25%;
+}
+/* Image positioning on big and small screens */
+@media (min-width: 1200px) {
+    .call-image{
+        position: absolute;
+        top: 0px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px){
+    .call-image{
+        position: absolute;
+        top: -15px;
+    }
+}
+@media (max-width: 991px) {
+    .call-image{
+        height: 95%;
+        margin-bottom: 7%;
+        padding: 5%;
+        width: 95%;
+    }
+    .second-image{
+        height: 75%;
+        margin-left: 12%;
+        position: initial;
+        padding: 10%;
+        width: 75%;
+    }
+    .third-image{
+        height: 75%;
+        margin-left: 12%;
+        position: initial;
+        padding: 10%;
+        width: 75%;
+    }
+}

@@ -1,0 +1,15 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.light-grey{
+    color: #747474;
+}
+/* For items not displaying on mobile phone */
+@media (max-width: 991px) {
+    .not-on-mobile{
+        display: none;
+    }
+}
