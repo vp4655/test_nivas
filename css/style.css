@@ -4,6 +4,49 @@ html{
 body{
     height: 100%;
 }
+label.error{
+    display: none;
+}
+.error-message{
+    background-color: #e72123;
+    color: #ffffff;
+    display: none;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+}
+.error-message > .icon-error-icon{
+    font-size: 24px;
+}
+.error-message > span{
+    vertical-align: middle;
+}
+.error-highlight{
+    border-color: #e72123 !important;
+}
+.success-message{
+    background-color: #59ad48;
+    color: #ffffff;
+    display: none;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+}
+.success-message > .icon-error-icon{
+    font-size: 24px;
+    margin-right: 2%;
+}
+.success-message > span{
+    vertical-align: middle;
+}
 .light-grey{
     color: #747474;
 }

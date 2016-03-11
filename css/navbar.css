@@ -13,6 +13,18 @@
     font-size: 16px;
     font-weight: 700;
 }
+.nav.nav-justified > li > a{
+    color: #535353;
+}
+.nav.nav-justified > li > a:active, .nav.nav-justified > li > a.active, .nav.nav-justified > li > a:hover, .nav.nav-justified > li > a:focus{
+    background-color: #f6f6f6;
+    color: #000000;
+}
+/* Hamburger button design */
+.navbar-toggle.collapsed.custom-border{
+    border-width: 0;
+    border-radius: 0;
+}
 @media (min-width: 767px) {
     .navbar.navbar-default.navbar-nivas{
         padding-top: 3.5%;
@@ -23,5 +35,15 @@
     }
     .navbar-nav.nav-justified > li{
         float:none;
+    }
+}
+@media (max-width: 767px) {
+    .nav.nav-justified{
+        padding-bottom: 5%;
+    }
+    .nav.nav-justified > li > a{
+        background-color: #000000;
+        color: #ffffff;
+        margin-bottom: 1px;
     }
 }
